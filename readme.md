@@ -23,24 +23,6 @@
 
 Сервер запустится на `http://127.0.0.1:5000`.
 
-## Конфигурация Cline
-Создайте или обновите файл `.cline.json` в корне проекта:
-```json
-{
-  "mcpServers": {
-    "file-finder-mcp": {
-      "args": [
-        "python",
-        "mcp_service.py"
-      ],
-      "command": "python",
-      "autoApprove": [],
-      "disabled": false
-    }
-  }
-}
-```
-
 ## Пример тестового запроса
 Отправьте GET-запрос:
 ```sh
