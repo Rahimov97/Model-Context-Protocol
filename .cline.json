@@ -1,0 +1,14 @@
+{
+    "mcp_service": {
+      "url": "http://127.0.0.1:5000/search",
+      "method": "GET",
+      "query_parameters": {
+        "fragment": "{query}",
+        "directory": "{workspaceRoot}"
+      },
+      "response_mapping": {
+        "files": "$"
+      }
+    }
+  }
+  
